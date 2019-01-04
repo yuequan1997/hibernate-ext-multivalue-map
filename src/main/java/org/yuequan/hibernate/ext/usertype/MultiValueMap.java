@@ -2,7 +2,6 @@ package org.yuequan.hibernate.ext.usertype;
 
 import org.hibernate.HibernateException;
 import org.hibernate.collection.spi.PersistentCollection;
-import org.hibernate.engine.spi.SessionImplementor;
 import org.hibernate.persister.collection.CollectionPersister;
 import org.hibernate.usertype.UserCollectionType;
 
@@ -10,20 +9,11 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.hibernate.HibernateException;
-import org.hibernate.collection.spi.PersistentCollection;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
-import org.hibernate.persister.collection.CollectionPersister;
-import org.hibernate.usertype.UserCollectionType;
 import org.springframework.util.LinkedMultiValueMap;
-
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Map;
 
 /**
  * 多值Map扩展Hibernate
- * @see {@link  org.hibernate.usertype.UserCollectionType}
  * @author yuequan
  * @since 1.0
  */
