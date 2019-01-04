@@ -2,6 +2,14 @@
 
 ### How to use?
 
+```xml
+<dependency>
+    <groupId>org.yuequan</groupId>
+    <artifactId>hibernate-ext-multivalue-map</artifactId>
+    <version>1.0.0.BETA</version>
+</dependency>
+```
+
 ```java
 //... more ...
 @OneToMany or @ManyToMany
