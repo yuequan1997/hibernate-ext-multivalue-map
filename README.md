@@ -1,7 +1,7 @@
 # hibernate-ext-multivalue-map
 
 ### How to use?
-
+First include dependency
 ```xml
 <dependency>
     <groupId>org.yuequan</groupId>
@@ -9,7 +9,7 @@
     <version>1.0.0.BETA</version>
 </dependency>
 ```
-
+Configure your entity
 ```java
 //... more ...
 @OneToMany or @ManyToMany
